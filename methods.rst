@@ -71,7 +71,7 @@ PATCH vs PUT
 
 The HTTP RFC specifies that PUT must take a full new resource representation as
 the request entity. This means that if for example only certain attributes are
-provided, those should be remove (i.e. set to null).
+provided, those should be removed (i.e. set to null).
 
 An additional method called PATCH `has been proposed recently
 <http://tools.ietf.org/html/rfc5789>`_. The semantics of this call are like PUT
